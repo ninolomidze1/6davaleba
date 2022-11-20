@@ -1,0 +1,179 @@
+.container {
+  max-width: 1366px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgb(187, 187, 187);
+}
+
+header {
+  width: 100%;
+  padding: 30px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2f5f8;
+}
+
+ul {
+  display: flex;
+  gap: 69px;
+  color: #8172d5;
+  font-size: 14px;
+}
+
+.search {
+  width: 227px;
+  height: 37px;
+  background-color: rgb(231, 227, 227);
+  display: flex;
+  justify-content: end;
+}
+
+i {
+  border: 2px solid #8172d5;
+  border-radius: 10%;
+  background-color: #8172d5;
+  width: 37px;
+  height: 37px;
+  color: aliceblue;
+  font-size: 12px;
+}
+
+/*movrchi headers*/
+
+.section1 {
+  width: 80%;
+  padding: 74px 0 54px 0;
+  margin: 74px auto 54px auto;
+  display: flex;
+  gap: 16px;
+}
+
+.left {
+  width: 70%;
+}
+figure {
+  border: 2px solid #f2f5f8;
+  border-radius: 8px;
+  background-color: #f2f5f8;
+  padding: 18px 18px 15px 18px;
+}
+
+figcaption {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.right {
+  width: 30%;
+}
+.icones_links {
+  background-color: #f2f5f8;
+  border: 2px solid #f2f5f8;
+  border-radius: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 458px;
+}
+
+.icones {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo {
+  width: 32px;
+  height: 35px;
+  margin-top: 57px;
+}
+
+
+h3 {
+  margin-bottom: 20px;
+  color: #133b3a;
+  font-size: 18px;
+}
+
+
+/*section1 dasrulda aq*/
+
+.section2 {
+  width: 80%;
+  margin: 0 auto;
+  height: 931px;
+}
+h2 {
+  margin-bottom: 15px;
+}
+.cards_figure{
+  width: 260px;
+  height: 368px;
+}
+.cards {
+  width: 100%;
+  height: 755px;
+  display: flex;
+  flex-wrap: wrap;
+}
+p{
+ display: flex;
+
+}
+.card {
+  width: 25%;
+  height: 50%;
+}
+p{
+  font-size: 12px;
+}
+.date1{
+  margin-top: 55px;
+}
+.date2{
+  margin-top: 78px;
+}
+.date3{
+  margin-top: 30px;
+}
+.date4{
+  margin-top: 77px;
+}
+.date5{
+  margin-top: 60px;
+}
+.date6{
+  margin-top: 59px;
+}
+.date7{
+  margin-top: 59px;
+}
+.date8{
+  margin-top: 59px;
+}
+
+/*morcha section2*/
+
+footer {
+  width: 100%;
+  height: 70px;
+  background-color: #758bfd;
+  padding: 30px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  gap: 111px;
+}
+
+.footer_logo {
+  width: 48px;
+  height: 12px;
+}
+
+.footer_nav {
+  color: white;
+  font-size: 14px;
+}
